@@ -1,0 +1,11 @@
+# @name create-message
+POST http://localhost:5001/message
+Content-Type: application/json
+
+{
+    "text": "hola mundo",
+    "name": "Alfredo"
+}
+
+###
+GET http://localhost:5001/message
