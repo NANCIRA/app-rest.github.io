@@ -1,5 +1,5 @@
 # @name create-message
-POST http://localhost:5001/message
+POST http://localhost:5000/message
 Content-Type: application/json
 
 {
@@ -8,4 +8,4 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:5001/message
+GET http://localhost:5000/message

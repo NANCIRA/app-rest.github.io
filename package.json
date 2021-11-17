@@ -5,14 +5,14 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "firebase-admin": "^10.0.0",
+    "firebase-admin": "^9.11.1",
     "nodemon": "^2.0.14",
     "uuid": "^8.3.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon backend/app.js"
+    "start": "node backend/app.js"
   },
   "author": "Nancira Riaño",
   "license": "ISC",
